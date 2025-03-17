@@ -432,6 +432,7 @@
         <div class="identityBox">
           <div class="form-wrapper">
             <h1 id="loginModalLabel">welcome back!</h1>
+            <form action="login" method="post">
             <input class="inputField" type="email" name="email" placeholder="Email Address">
             <input class="inputField" type="password" name="password" placeholder="Enter Password">
             <div class="input-check remember-me">
@@ -443,8 +444,10 @@
               <div class="text"> <a href="index-2.html">Forgot Your password?</a> </div>
             </div>
             <div class="loginBtn">
-              <a href="index-2.html" class="theme-btn rounded-0"> Log in </a>
+<%--              <a href="index-2.html" class="theme-btn rounded-0"> Log in </a>--%>
+              <button type="submit" class="theme-btn rounded-0"> Log in </button>
             </div>
+            </form>
             <div class="orting-badge">
               Or
             </div>
@@ -775,7 +778,7 @@
               <h3><a href="shop-details.html">The Hidden Mystery <br> Behind</a></h3>
               <ul class="price-list">
                 <li>
-                  $29.00
+                  $29.00R
                 </li>
               </ul>
               <ul class="author-post">
