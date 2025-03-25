@@ -7,7 +7,7 @@
 <head>
 <meta charset="utf-8">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
-<title>Phòng đọc</title>
+<title>Sách của tôi</title>
 <meta name="description" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -36,7 +36,7 @@
 	<header class="relative" id="sc1">
 		<!-- Header-background-markup -->
 		<div class="overlay-bg relative">
-			<img src="images/slide/slide3.jpg" alt="">
+			<img src="images/slide/slide1.jpg" alt="">
 		</div>
 		<!-- Mainmenu-markup-start -->
 		<div class="mainmenu-area navbar-fixed-top" data-spy="affix"
@@ -90,7 +90,7 @@
 							<li><a href="index.jsp">Trang chủ</a></li>
 							<li><a href="#">Giới thiệu</a></li>
 							<li><a href="noitification.jsp">Thông báo</a></li>
-							<li class="active"><a href="room.jsp">Phòng đọc</a></li>
+							<li><a href="room.jsp">Phòng đọc</a></li>
 							<li><a href="feedback.jsp">Phản hồi</a></li>
 							<li><a href="books.jsp">Sách</a></li>
 						</ul>
@@ -107,7 +107,7 @@
 				<div class="row wow fadeInUp">
 					<div class="col-xs-12 col-sm-10 col-sm-offset-1 text-center">
 						<div class="jumbotron">
-							<h1 class="text-white">Phòng đọc sách tổng hợp</h1>
+							<h1 class="text-white">Sách của tôi</h1>
 						</div>
 						<div class="title-bar white">
 							<ul class="list-inline list-unstyled">
@@ -128,7 +128,7 @@
 		<div class="container">
 			<div class="row">
 				<!-- Sidebar-Start -->
-				<div class="col-xs-12 col-md-3">
+				<div class="col-xs-12 col-md-2">
 					<aside>
 						<div class="sigle-sidebar">
 							<h4>
@@ -136,56 +136,19 @@
 							</h4>
 							<hr>
 							<ul class="list-unstyled menu-tip">
-								<li><a href="#" class="active">Phòng đọc sách tổng hợp</a></li>
-								<li><a href="#">Phòng đọc đa phương tiện</a></li>
-								<li><a href="#">Phòng mượn sách</a></li>
-								<li><a href="#">Phòng cấp thẻ</a></li>
-								<li><a href="#">Phòng đọc báo - tạp chí</a></li>
-								<li><a href="#">Phòng thiếu nhi</a></li>
+								<li><a href="profile.jsp">Thông tin cá nhân</a></li>
+								<li><a href="change_password.jsp">Đổi mật khẩu</a></li>
+								<li><a class="active" href="mybook.jsp">Sách của tôi</a></li>
 							</ul>
 						</div>
 						<div class="space-20"></div>
 					</aside>
 				</div>
 				<!-- Sidebar-End -->
-				<div class="col-xs-12 col-md-9">
-					<h4>Giới thiệu phòng</h4>
-
-					<hr>
-					<div class="space-20"></div>
-
-					<!-- Thông tin phòng ở đây -->
-					<p>- Là kho tài liệu có giá trị, quý hiếm và đầy đủ nhất của
-						thư viện, được tổ chức kho đóng và sắp xếp theo số đăng ký cá
-						biệt.</p>
-					<p>- Có chức năng lưu trữ, bảo quản lâu dài và cung cấp thông
-						tin trên nhiều lĩnh vực tri thức, gồm: tài liệu tiếng việt, tài
-						liệu ngoại văn, tài liệu tra cứu.</p>
-
-					<p>- Nhằm đáp ứng nhu cầu nghiên cứu, học tập và sử dụng tại
-						chỗ vốn tài liệu cho các đối tượng bạn đọc.</p>
-
-					<p>Vốn tài liệu:</p>
-
-					<p>- Sách Tiếng Việt: 75.874 bản / 66.500 nhan đề</p>
-
-					<p>- Sách Ngoại văn: 7.722 bản / 5.148 nhan đề</p>
-
-					<p>Lịch làm việc trong tuần:</p>
-
-					<p>- Ngày làm việc: Thứ ba, thứ tư, thứ năm, thứ sáu, thứ bảy,
-						chủ nhật.</p>
-
-					<p>- Ngày nghỉ: Thứ hai.</p>
-					<p>+ Buổi sáng: Từ 7 giờ 30 phút đến 11 giờ 30 phút</p>
-
-					<p>+ Buổi chiều: Từ 13 giờ đến 16 giờ 45 phút</p>
-
-					<p>Thủ thư:</p>
-					<p>Huỳnh Hồng Phúc</p>
-
+				<div class="col-xs-12 col-md-10 pull-right">
+					<h4>Sách của tôi</h4>
+					<div class="space-5"></div>
 				</div>
-
 			</div>
 		</div>
 		<div class="space-80"></div>
@@ -237,17 +200,6 @@
 						</tr>
 					</table>
 				</div>
-				<!-- <div class="col-xs-12 col-sm-4 col-md-3 col-md-offset-1">
-                    <h4 class="text-white">Useful Link</h4>
-                    <div class="space-20"></div>
-                    <ul class="list-unstyled menu-tip">
-                        <li><a href="books.jsp">Costumer Service</a></li>
-                        <li><a href="books.jsp">Help Desk</a></li>
-                        <li><a href="books.jsp">Forum</a></li>
-                        <li><a href="books.jsp">Staff Profile</a></li>
-                        <li><a href="books.jsp">Live Chat</a></li>
-                    </ul>
-                </div> -->
 			</div>
 		</div>
 		<div class="space-60"></div>

@@ -7,7 +7,7 @@
 <head>
 <meta charset="utf-8">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
-<title>Phòng đọc</title>
+<title>Phản hồi</title>
 <meta name="description" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -90,9 +90,9 @@
 							<li><a href="index.jsp">Trang chủ</a></li>
 							<li><a href="#">Giới thiệu</a></li>
 							<li><a href="noitification.jsp">Thông báo</a></li>
-							<li class="active"><a href="room.jsp">Phòng đọc</a></li>
-							<li><a href="feedback.jsp">Phản hồi</a></li>
-							<li><a href="books.jsp">Sách</a></li>
+							<li ><a href="room.jsp">Phản hồi </a></li>
+							<li class="active"><a href="feedback.jsp">Phản hồi</a></li>
+							<li><a href="DauSachDanhSach">Sách</a></li>
 						</ul>
 					</div>
 				</div>
@@ -107,7 +107,7 @@
 				<div class="row wow fadeInUp">
 					<div class="col-xs-12 col-sm-10 col-sm-offset-1 text-center">
 						<div class="jumbotron">
-							<h1 class="text-white">Phòng đọc sách tổng hợp</h1>
+							<h1 class="text-white">Phản hồi sách tổng hợp</h1>
 						</div>
 						<div class="title-bar white">
 							<ul class="list-inline list-unstyled">
@@ -124,72 +124,86 @@
 		<!-- Header-jumbotron-end -->
 	</header>
 	<section>
-		<div class="space-80"></div>
-		<div class="container">
-			<div class="row">
-				<!-- Sidebar-Start -->
-				<div class="col-xs-12 col-md-3">
-					<aside>
-						<div class="sigle-sidebar">
-							<h4>
-								<i class="icofont icofont-listine-dots"></i> Danh mục
-							</h4>
-							<hr>
-							<ul class="list-unstyled menu-tip">
-								<li><a href="#" class="active">Phòng đọc sách tổng hợp</a></li>
-								<li><a href="#">Phòng đọc đa phương tiện</a></li>
-								<li><a href="#">Phòng mượn sách</a></li>
-								<li><a href="#">Phòng cấp thẻ</a></li>
-								<li><a href="#">Phòng đọc báo - tạp chí</a></li>
-								<li><a href="#">Phòng thiếu nhi</a></li>
-							</ul>
-						</div>
-						<div class="space-20"></div>
-					</aside>
-				</div>
-				<!-- Sidebar-End -->
-				<div class="col-xs-12 col-md-9">
-					<h4>Giới thiệu phòng</h4>
+    <div class="space-80"></div>
+    <div class="container">
+        <div class="row">
+            <!-- Sidebar-Start -->
+            <div class="col-xs-12 col-md-3">
+                <aside>
+                    <div class="sigle-sidebar">
+                        <h4>
+                            <i class="icofont icofont-listine-dots"></i> Danh mục
+                        </h4>
+                        <hr>
+                        <ul class="list-unstyled menu-tip">
+                            <li><a href="#" class="active">Quản lý thư viện</a></li>
+                            <li><a href="#">Dịch vụ mượn sách</a></li>
+                            <li><a href="#">Tổ chức sự kiện</a></li>
+                            <li><a href="#">Chương trình đọc sách</a></li>
+                            <li><a href="#">Thống kê tài liệu</a></li>
+                        </ul>
+                    </div>
+                    <div class="space-20"></div>
+                </aside>
+            </div>
+            <!-- Sidebar-End -->
+            <div class="col-xs-12 col-md-9">
+                <h4>Phản hồi về quản lý thư viện</h4>
 
-					<hr>
-					<div class="space-20"></div>
+                <hr>
+                <div class="space-20"></div>
 
-					<!-- Thông tin phòng ở đây -->
-					<p>- Là kho tài liệu có giá trị, quý hiếm và đầy đủ nhất của
-						thư viện, được tổ chức kho đóng và sắp xếp theo số đăng ký cá
-						biệt.</p>
-					<p>- Có chức năng lưu trữ, bảo quản lâu dài và cung cấp thông
-						tin trên nhiều lĩnh vực tri thức, gồm: tài liệu tiếng việt, tài
-						liệu ngoại văn, tài liệu tra cứu.</p>
+                <div class="feedback-item">
+                    <h5>Phản hồi 1:</h5>
+                    <p>“Quản lý thư viện rất chuyên nghiệp và hiệu quả. Tôi luôn cảm thấy hài lòng với cách mà thư viện tổ chức và bảo trì tài liệu.”</p>
+                </div>
 
-					<p>- Nhằm đáp ứng nhu cầu nghiên cứu, học tập và sử dụng tại
-						chỗ vốn tài liệu cho các đối tượng bạn đọc.</p>
+                <div class="feedback-item">
+                    <h5>Phản hồi 2:</h5>
+                    <p>“Nhân viên quản lý thư viện rất thân thiện và sẵn sàng hỗ trợ khi tôi gặp khó khăn trong việc tìm kiếm tài liệu.”</p>
+                </div>
 
-					<p>Vốn tài liệu:</p>
+                <div class="feedback-item">
+                    <h5>Phản hồi 3:</h5>
+                    <p>“Tôi đánh giá cao việc thư viện thường xuyên cập nhật và bổ sung tài liệu mới. Điều này giúp chúng tôi có nhiều lựa chọn hơn.”</p>
+                </div>
 
-					<p>- Sách Tiếng Việt: 75.874 bản / 66.500 nhan đề</p>
+                <div class="feedback-item">
+                    <h5>Phản hồi 4:</h5>
+                    <p>“Hệ thống quản lý tài liệu rất dễ sử dụng. Tôi có thể tìm kiếm và mượn sách một cách nhanh chóng mà không gặp bất kỳ trở ngại nào.”</p>
+                </div>
 
-					<p>- Sách Ngoại văn: 7.722 bản / 5.148 nhan đề</p>
+                <div class="feedback-item">
+                    <h5>Phản hồi 5:</h5>
+                    <p>“Các sự kiện và chương trình đọc sách được tổ chức rất tốt. Tôi thường xuyên tham gia và cảm thấy rất bổ ích.”</p>
+                </div>
 
-					<p>Lịch làm việc trong tuần:</p>
+                <h4>Thông tin thêm</h4>
+                <p><strong>Vốn tài liệu:</strong></p>
+                <ul>
+                    <li>Sách Tiếng Việt: 75.874 bản / 66.500 nhan đề</li>
+                    <li>Sách Ngoại văn: 7.722 bản / 5.148 nhan đề</li>
+                </ul>
 
-					<p>- Ngày làm việc: Thứ ba, thứ tư, thứ năm, thứ sáu, thứ bảy,
-						chủ nhật.</p>
+                <p><strong>Lịch làm việc trong tuần:</strong></p>
+                <ul>
+                    <li>Ngày làm việc: Thứ ba đến chủ nhật.</li>
+                    <li>Ngày nghỉ: Thứ hai.</li>
+                    <li>Buổi sáng: Từ 7 giờ 30 phút đến 11 giờ 30 phút.</li>
+                    <li>Buổi chiều: Từ 13 giờ đến 16 giờ 45 phút.</li>
+                </ul>
 
-					<p>- Ngày nghỉ: Thứ hai.</p>
-					<p>+ Buổi sáng: Từ 7 giờ 30 phút đến 11 giờ 30 phút</p>
+                <p><strong>Thủ thư:</strong></p>
+                <p>Huỳnh Hồng Phúc</p>
 
-					<p>+ Buổi chiều: Từ 13 giờ đến 16 giờ 45 phút</p>
+            </div>
 
-					<p>Thủ thư:</p>
-					<p>Huỳnh Hồng Phúc</p>
+        </div>
+    </div>
+    <div class="space-80"></div>
+</section>
 
-				</div>
 
-			</div>
-		</div>
-		<div class="space-80"></div>
-	</section>
 	<!-- Footer-Area -->
 	<footer class="black-bg text-white">
 		<div class="space-60"></div>
@@ -237,17 +251,6 @@
 						</tr>
 					</table>
 				</div>
-				<!-- <div class="col-xs-12 col-sm-4 col-md-3 col-md-offset-1">
-                    <h4 class="text-white">Useful Link</h4>
-                    <div class="space-20"></div>
-                    <ul class="list-unstyled menu-tip">
-                        <li><a href="books.jsp">Costumer Service</a></li>
-                        <li><a href="books.jsp">Help Desk</a></li>
-                        <li><a href="books.jsp">Forum</a></li>
-                        <li><a href="books.jsp">Staff Profile</a></li>
-                        <li><a href="books.jsp">Live Chat</a></li>
-                    </ul>
-                </div> -->
 			</div>
 		</div>
 		<div class="space-60"></div>

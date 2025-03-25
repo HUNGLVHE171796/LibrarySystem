@@ -3,18 +3,15 @@
 <!doctype html>
 <html class="no-js" lang="zxx">
 
-
 <head>
 <meta charset="utf-8">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
-<title>Phòng đọc</title>
+<title>Thông báo</title>
 <meta name="description" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-
 <!-- Place favicon.ico in the root directory -->
 <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 <link rel="shortcut icon" type="image/ico" href="images/favicon.ico" />
-
 <!-- Plugin-CSS -->
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="css/owl.carousel.min.css">
@@ -22,7 +19,6 @@
 <link rel="stylesheet" href="css/animate.css">
 <link rel="stylesheet" href="css/cardslider.css">
 <link rel="stylesheet" href="css/responsiveslides.css">
-
 <!-- Main-Stylesheets -->
 <link rel="stylesheet" href="css/normalize.css">
 <link rel="stylesheet" href="css/overright.css">
@@ -36,7 +32,7 @@
 	<header class="relative" id="sc1">
 		<!-- Header-background-markup -->
 		<div class="overlay-bg relative">
-			<img src="images/slide/slide3.jpg" alt="">
+			<img src="images/slide/slide1.jpg" alt="">
 		</div>
 		<!-- Mainmenu-markup-start -->
 		<div class="mainmenu-area navbar-fixed-top" data-spy="affix"
@@ -55,7 +51,6 @@
 						<div class="space-10"></div>
 					</div>
 					<!--Toggle-button-->
-
 					<!--Active User-->
 					<div class="nav navbar-right">
 						<div class="active-user navbar-left active">
@@ -89,10 +84,11 @@
 						<ul class="nav navbar-nav nav-white text-uppercase">
 							<li><a href="index.jsp">Trang chủ</a></li>
 							<li><a href="#">Giới thiệu</a></li>
-							<li><a href="noitification.jsp">Thông báo</a></li>
-							<li class="active"><a href="room.jsp">Phòng đọc</a></li>
+							<li class="active"><a href="noitification.jsp">Thông báo</a>
+							</li>
+							<li><a href="room.jsp">Phòng đọc</a></li>
 							<li><a href="feedback.jsp">Phản hồi</a></li>
-							<li><a href="books.jsp">Sách</a></li>
+							<li><a href="DauSachDanhSach">Sách</a></li>
 						</ul>
 					</div>
 				</div>
@@ -107,7 +103,7 @@
 				<div class="row wow fadeInUp">
 					<div class="col-xs-12 col-sm-10 col-sm-offset-1 text-center">
 						<div class="jumbotron">
-							<h1 class="text-white">Phòng đọc sách tổng hợp</h1>
+							<h1 class="text-white">Thông báo của thư viện</h1>
 						</div>
 						<div class="title-bar white">
 							<ul class="list-inline list-unstyled">
@@ -130,65 +126,112 @@
 				<!-- Sidebar-Start -->
 				<div class="col-xs-12 col-md-3">
 					<aside>
+						<div class="space-30"></div>
 						<div class="sigle-sidebar">
 							<h4>
-								<i class="icofont icofont-listine-dots"></i> Danh mục
+								<i class="icofont icofont-filter"></i> Bộ lọc
 							</h4>
 							<hr>
 							<ul class="list-unstyled menu-tip">
-								<li><a href="#" class="active">Phòng đọc sách tổng hợp</a></li>
-								<li><a href="#">Phòng đọc đa phương tiện</a></li>
-								<li><a href="#">Phòng mượn sách</a></li>
-								<li><a href="#">Phòng cấp thẻ</a></li>
-								<li><a href="#">Phòng đọc báo - tạp chí</a></li>
-								<li><a href="#">Phòng thiếu nhi</a></li>
+								<li><a href="#">Tất cả</a></li>
+								<li><a href="#">Tháng 1</a></li>
+								<li><a href="#">Tháng 2</a></li>
+								<li><a href="#">Tháng 3</a></li>
+								<li><a href="#">Tháng 4</a></li>
+								<li><a href="#">Tháng 5</a></li>
+								<li><a href="#">Tháng 6</a></li>
+								<li><a href="#">Tháng 7</a></li>
+								<li><a href="#">Tháng 8</a></li>
+								<li><a href="#">Tháng 9</a></li>
+								<li><a href="#">Tháng 10</a></li>
+								<li><a href="#">Tháng 11</a></li>
+								<li><a href="#">Tháng 12</a></li>
 							</ul>
 						</div>
 						<div class="space-20"></div>
 					</aside>
 				</div>
 				<!-- Sidebar-End -->
-				<div class="col-xs-12 col-md-9">
-					<h4>Giới thiệu phòng</h4>
-
+				<div class="col-xs-12 col-md-9 pull-right">
+					<div class="space-30"></div>
 					<hr>
 					<div class="space-20"></div>
-
-					<!-- Thông tin phòng ở đây -->
-					<p>- Là kho tài liệu có giá trị, quý hiếm và đầy đủ nhất của
-						thư viện, được tổ chức kho đóng và sắp xếp theo số đăng ký cá
-						biệt.</p>
-					<p>- Có chức năng lưu trữ, bảo quản lâu dài và cung cấp thông
-						tin trên nhiều lĩnh vực tri thức, gồm: tài liệu tiếng việt, tài
-						liệu ngoại văn, tài liệu tra cứu.</p>
-
-					<p>- Nhằm đáp ứng nhu cầu nghiên cứu, học tập và sử dụng tại
-						chỗ vốn tài liệu cho các đối tượng bạn đọc.</p>
-
-					<p>Vốn tài liệu:</p>
-
-					<p>- Sách Tiếng Việt: 75.874 bản / 66.500 nhan đề</p>
-
-					<p>- Sách Ngoại văn: 7.722 bản / 5.148 nhan đề</p>
-
-					<p>Lịch làm việc trong tuần:</p>
-
-					<p>- Ngày làm việc: Thứ ba, thứ tư, thứ năm, thứ sáu, thứ bảy,
-						chủ nhật.</p>
-
-					<p>- Ngày nghỉ: Thứ hai.</p>
-					<p>+ Buổi sáng: Từ 7 giờ 30 phút đến 11 giờ 30 phút</p>
-
-					<p>+ Buổi chiều: Từ 13 giờ đến 16 giờ 45 phút</p>
-
-					<p>Thủ thư:</p>
-					<p>Huỳnh Hồng Phúc</p>
-
+					<div class="row">
+						<div class="row event-list">
+							<div class="col-xs-12 col-md-7 col-md-offset-1">
+								<div class="event-item wow fadeInRight">
+									<h4 class="show tip-left">
+										20-7-2017 <span class="pull-right">14.30</span>
+									</h4>
+									<div class="well">
+										<div class="media">
+											<div class="media-left">
+												<img src="images/evemt/even-1.jpg" class="media-object"
+													alt="library">
+											</div>
+											<div class="media-body">
+												<div class="space-10"></div>
+												<a href="books.jsp"><strong class="media-heading">Tuesday
+														Networking &amp; Lecture</strong></a>
+												<div class="space-10"></div>
+												<p>Lorem ipsum dolor sit amet, consectetur adipiscing
+													elit. Ut gravida, quam vitae est Sed non eros elementum
+													nulla sodales ullamcorper.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="space-20"></div>
+								<div class="event-item wow fadeInRight">
+									<h4 class="show tip-left">
+										15-9-2017 <span class="pull-right">8.30</span>
+									</h4>
+									<div class="well">
+										<div class="media">
+											<div class="media-left">
+												<img src="images/evemt/event-2.jpg" class="media-object"
+													alt="library">
+											</div>
+											<div class="media-body">
+												<div class="space-10"></div>
+												<a href="DauSachDanhSach"><strong class="media-heading">Read
+														Book For 500 People</strong></a>
+												<div class="space-10"></div>
+												<p>Lorem ipsum dolor sit amet, consectetur adipiscing
+													elit. Ut gravida, quam vitae est Sed non eros elementum
+													nulla sodales ullamcorper.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="space-20"></div>
+							</div>
+						</div>
+					</div>
+					<div class="space-60"></div>
+					<div class="row">
+						<div class="col-xs-12">
+							<div class="shop-pagination pull-right">
+								<ul id="pagination-demo" class="pagination-sm pagination">
+									<li class="page-item first"><a href="#" class="page-link">First</a></li>
+									<li class="page-item prev"><a href="#" class="page-link">Previous</a></li>
+									<li class="page-item"><a href="#" class="page-link">1</a></li>
+									<li class="page-item"><a href="#" class="page-link">2</a></li>
+									<li class="page-item active"><a href="#" class="page-link">3</a></li>
+									<li class="page-item"><a href="#" class="page-link">4</a></li>
+									<li class="page-item"><a href="#" class="page-link">5</a></li>
+									<li class="page-item"><a href="#" class="page-link">6</a></li>
+									<li class="page-item"><a href="#" class="page-link">7</a></li>
+									<li class="page-item next"><a href="#" class="page-link">Next</a></li>
+									<li class="page-item last"><a href="#" class="page-link">Last</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
 				</div>
-
 			</div>
+			<div class="space-80"></div>
 		</div>
-		<div class="space-80"></div>
 	</section>
 	<!-- Footer-Area -->
 	<footer class="black-bg text-white">
@@ -238,8 +281,7 @@
 					</table>
 				</div>
 				<!-- <div class="col-xs-12 col-sm-4 col-md-3 col-md-offset-1">
-                    <h4 class="text-white">Useful Link</h4>
-                    <div class="space-20"></div>
+                    <h4 class="text-white">Useful Link</h4>    <div class="space-20"></div>
                     <ul class="list-unstyled menu-tip">
                         <li><a href="books.jsp">Costumer Service</a></li>
                         <li><a href="books.jsp">Help Desk</a></li>
@@ -253,7 +295,6 @@
 		<div class="space-60"></div>
 	</footer>
 	<!-- Footer-Area-End -->
-
 	<!-- Vandor-JS -->
 	<script src="js/vendor/jquery-1.12.4.min.js"></script>
 	<script src="js/vendor/bootstrap.min.js"></script>
@@ -267,7 +308,6 @@
 	<script src="js/plugins.js"></script>
 	<!-- Active-JS -->
 	<script src="js/main.js"></script>
-
 </body>
 
 </html>
